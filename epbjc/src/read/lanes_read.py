@@ -1,10 +1,10 @@
 import sqlite3
 
-conex = sqlite3.connect('C:\Users\solan\Desktop\epbjc\epbjc\sqlite-database\epbjc.db')
-cursor = conex.cursor()
+conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\epbjc\\epbjc\\sqlite-database\\epbjc.db')
+cursor_lanes = conex.cursor()
 
-cursor.execute('SELECT * FROM champs_lanes')
-resultados = cursor.fetchall()
+cursor_lanes.execute('SELECT * FROM champs_lanes')
+resultados = cursor_lanes.fetchall()
  
 for lane in resultados:
     print(lane)

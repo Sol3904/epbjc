@@ -1,6 +1,6 @@
 import sqlite3
 
-conex = sqlite3.connect('C:\Users\solan\Desktop\epbjc\epbjc\sqlite-database\epbjc.db')
+conex = sqlite3.connect('C:\\Users\\solan\\Desktop\\epbjc\\epbjc\\sqlite-database\\epbjc.db')
 cursor = conex.cursor()
 
 cursor.execute('''
